@@ -2,7 +2,7 @@
 
 # CinemaPress One Command Install - Полная установка одной командой
 # Аналог: bash <(wget git.io/JGKNq -qO-)
-# Использование: curl -sSL https://raw.githubusercontent.com/your-repo/cinemapress-one-command.sh | bash
+# Использование: curl -sSL https://raw.githubusercontent.com/petr-zubkov/CinemaPress/cinemapress-one-command.sh | bash
 
 set -e
 
@@ -72,7 +72,7 @@ check_requirements() {
         echo "Please run with sudo or ask your administrator for sudo access."
         echo ""
         echo "Without sudo, you can use our minimal version:"
-        echo "https://github.com/CinemaPress/CinemaPress-minimal"
+        echo "https://github.com/petr-zubkov/CinemaPress/CinemaPress-minimal"
         exit 1
     fi
     
